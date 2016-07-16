@@ -7,21 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500D5F1C1D362650007D5E55 /* HKGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F1B1D362650007D5E55 /* HKGeometry.swift */; };
+		500D5F1F1D3634FD007D5E55 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F1E1D3634FD007D5E55 /* IndexViewController.swift */; };
+		500D5F211D36393C007D5E55 /* BaseAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F201D36393C007D5E55 /* BaseAnimationViewController.swift */; };
+		500D5F231D3639E8007D5E55 /* anchorPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F221D3639E8007D5E55 /* anchorPointViewController.swift */; };
+		500D5F251D363B7C007D5E55 /* backgroundColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F241D363B7C007D5E55 /* backgroundColorViewController.swift */; };
+		500D5F271D363BFA007D5E55 /* borderColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F261D363BFA007D5E55 /* borderColorViewController.swift */; };
+		500D5F291D363C84007D5E55 /* borderWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F281D363C84007D5E55 /* borderWidthViewController.swift */; };
+		500D5F2B1D363E62007D5E55 /* boundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F2A1D363E62007D5E55 /* boundsViewController.swift */; };
+		500D5F2D1D363EF2007D5E55 /* cornerRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F2C1D363EF2007D5E55 /* cornerRadiusViewController.swift */; };
+		500D5F2F1D363F68007D5E55 /* contentsRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F2E1D363F68007D5E55 /* contentsRectViewController.swift */; };
+		500D5F311D363FEA007D5E55 /* content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 500D5F301D363FEA007D5E55 /* content@2x.png */; };
+		500D5F331D36413A007D5E55 /* opacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F321D36413A007D5E55 /* opacityViewController.swift */; };
+		500D5F351D3641FD007D5E55 /* positionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F341D3641FD007D5E55 /* positionViewController.swift */; };
+		500D5F371D364FDA007D5E55 /* shadowColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F361D364FDA007D5E55 /* shadowColorViewController.swift */; };
+		500D5F391D365054007D5E55 /* shadowOffsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F381D365054007D5E55 /* shadowOffsetViewController.swift */; };
+		500D5F3B1D3650D1007D5E55 /* shadowOpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F3A1D3650D1007D5E55 /* shadowOpacityViewController.swift */; };
+		500D5F3D1D365140007D5E55 /* shadowRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F3C1D365140007D5E55 /* shadowRadiusViewController.swift */; };
+		500D5F3F1D365198007D5E55 /* shadowPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5F3E1D365198007D5E55 /* shadowPathViewController.swift */; };
+		502452621D34CB87006D2596 /* HKOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502452611D34CB87006D2596 /* HKOpacity.swift */; };
+		502452641D34CC5B006D2596 /* HKPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502452631D34CC5B006D2596 /* HKPosition.swift */; };
+		502452661D34CE03006D2596 /* HKShadowColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502452651D34CE03006D2596 /* HKShadowColor.swift */; };
+		502452681D34D113006D2596 /* HKShadowOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502452671D34D113006D2596 /* HKShadowOffset.swift */; };
+		5024526A1D34D233006D2596 /* HKShadowOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502452691D34D233006D2596 /* HKShadowOpacity.swift */; };
+		5024526C1D34D32B006D2596 /* HKShadowRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5024526B1D34D32B006D2596 /* HKShadowRadius.swift */; };
+		5024526E1D34D58B006D2596 /* HKShadowPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5024526D1D34D58B006D2596 /* HKShadowPath.swift */; };
+		502452701D34FCFE006D2596 /* HKCustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5024526F1D34FCFE006D2596 /* HKCustomOperators.swift */; };
+		508285611D3797A800B5AD8C /* zPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285601D3797A800B5AD8C /* zPositionViewController.swift */; };
+		508285631D37985000B5AD8C /* HKZPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285621D37985000B5AD8C /* HKZPosition.swift */; };
+		508285651D37A09000B5AD8C /* HKRotationByX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285641D37A09000B5AD8C /* HKRotationByX.swift */; };
+		508285671D37A1DA00B5AD8C /* rotationByXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285661D37A1DA00B5AD8C /* rotationByXViewController.swift */; };
+		508285691D37BEDF00B5AD8C /* HKRotationByY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285681D37BEDF00B5AD8C /* HKRotationByY.swift */; };
+		5082856B1D37BF0700B5AD8C /* HKRotationByZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082856A1D37BF0700B5AD8C /* HKRotationByZ.swift */; };
+		5082856D1D37BFDA00B5AD8C /* rotationByYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082856C1D37BFDA00B5AD8C /* rotationByYViewController.swift */; };
+		5082856F1D37C0FA00B5AD8C /* rotationByZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082856E1D37C0FA00B5AD8C /* rotationByZViewController.swift */; };
+		508285711D37F2FA00B5AD8C /* HKScaleByX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285701D37F2FA00B5AD8C /* HKScaleByX.swift */; };
+		508285731D37F31500B5AD8C /* HKScaleByY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285721D37F31500B5AD8C /* HKScaleByY.swift */; };
+		508285751D37F32000B5AD8C /* HKScaleByZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285741D37F32000B5AD8C /* HKScaleByZ.swift */; };
+		508285771D37F32C00B5AD8C /* HKScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285761D37F32C00B5AD8C /* HKScale.swift */; };
+		508285791D37F7CD00B5AD8C /* scaleByXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285781D37F7CD00B5AD8C /* scaleByXViewController.swift */; };
+		5082857B1D37F89A00B5AD8C /* scaleByYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082857A1D37F89A00B5AD8C /* scaleByYViewController.swift */; };
+		5082857D1D37F8B700B5AD8C /* scaleByZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082857C1D37F8B700B5AD8C /* scaleByZViewController.swift */; };
+		5082857F1D37F8C800B5AD8C /* scaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082857E1D37F8C800B5AD8C /* scaleViewController.swift */; };
+		508285811D37FD5800B5AD8C /* HKTranslationByX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285801D37FD5800B5AD8C /* HKTranslationByX.swift */; };
+		508285831D37FD6800B5AD8C /* HKTranslationByY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285821D37FD6800B5AD8C /* HKTranslationByY.swift */; };
+		508285851D37FD7400B5AD8C /* HKTranslationByZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285841D37FD7400B5AD8C /* HKTranslationByZ.swift */; };
+		508285871D37FD8000B5AD8C /* HKTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285861D37FD8000B5AD8C /* HKTranslation.swift */; };
+		508285891D37FEE100B5AD8C /* translationByXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508285881D37FEE100B5AD8C /* translationByXViewController.swift */; };
+		5082858B1D37FEEE00B5AD8C /* translationByYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082858A1D37FEEE00B5AD8C /* translationByYViewController.swift */; };
+		5082858D1D37FEF900B5AD8C /* translationByZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082858C1D37FEF900B5AD8C /* translationByZViewController.swift */; };
+		5082858F1D37FF0400B5AD8C /* translationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082858E1D37FF0400B5AD8C /* translationViewController.swift */; };
+		508548101D34007800F0B66C /* HKAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5085480F1D34007800F0B66C /* HKAnchorPoint.swift */; };
+		508548121D34026900F0B66C /* HKBorderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508548111D34026900F0B66C /* HKBorderColor.swift */; };
+		508548141D3402E300F0B66C /* HKBorderWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508548131D3402E300F0B66C /* HKBorderWidth.swift */; };
+		508548161D340C5A00F0B66C /* view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 508548151D340C5A00F0B66C /* view@2x.png */; };
+		508548181D340CCD00F0B66C /* HKContentsRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508548171D340CCD00F0B66C /* HKContentsRect.swift */; };
+		5092578D1D279BCF005ABD22 /* HKAnimationDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092578B1D279BCF005ABD22 /* HKAnimationDescription.swift */; };
+		5092578E1D279BCF005ABD22 /* HKBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5092578C1D279BCF005ABD22 /* HKBounds.swift */; };
+		509F9D761D3016B100B00D93 /* HKAnimationProxyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509F9D751D3016B100B00D93 /* HKAnimationProxyDelegate.swift */; };
+		50A025631D3A323800F385E4 /* transitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A025621D3A323800F385E4 /* transitionViewController.swift */; };
+		50A025651D3A34DC00F385E4 /* flipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A025641D3A34DC00F385E4 /* flipViewController.swift */; };
+		50A9380D1D2FDEFC00BB083D /* HKAnimationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9380C1D2FDEFC00BB083D /* HKAnimationTools.swift */; };
 		50C1E54D1D26AE26003FEE88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1E54C1D26AE26003FEE88 /* AppDelegate.swift */; };
-		50C1E54F1D26AE26003FEE88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1E54E1D26AE26003FEE88 /* ViewController.swift */; };
-		50C1E5521D26AE26003FEE88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C1E5501D26AE26003FEE88 /* Main.storyboard */; };
 		50C1E5541D26AE26003FEE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C1E5531D26AE26003FEE88 /* Assets.xcassets */; };
 		50C1E5571D26AE26003FEE88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C1E5551D26AE26003FEE88 /* LaunchScreen.storyboard */; };
+		50C1E5601D26AE7C003FEE88 /* CALayer+HKAnimationExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1E55F1D26AE7C003FEE88 /* CALayer+HKAnimationExts.swift */; };
+		50C1E5641D26AF50003FEE88 /* HKAnimationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1E5631D26AF50003FEE88 /* HKAnimationConfig.swift */; };
+		50C1E5681D26B172003FEE88 /* HKAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1E5671D26B172003FEE88 /* HKAnimation.swift */; };
+		50E449741D33CB3700A94FAF /* HKCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E449731D33CB3700A94FAF /* HKCornerRadius.swift */; };
+		50E449761D33D0AA00A94FAF /* HKBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E449751D33D0AA00A94FAF /* HKBackgroundColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500D5F1B1D362650007D5E55 /* HKGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKGeometry.swift; sourceTree = "<group>"; };
+		500D5F1E1D3634FD007D5E55 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		500D5F201D36393C007D5E55 /* BaseAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAnimationViewController.swift; sourceTree = "<group>"; };
+		500D5F221D3639E8007D5E55 /* anchorPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anchorPointViewController.swift; sourceTree = "<group>"; };
+		500D5F241D363B7C007D5E55 /* backgroundColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backgroundColorViewController.swift; sourceTree = "<group>"; };
+		500D5F261D363BFA007D5E55 /* borderColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = borderColorViewController.swift; sourceTree = "<group>"; };
+		500D5F281D363C84007D5E55 /* borderWidthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = borderWidthViewController.swift; sourceTree = "<group>"; };
+		500D5F2A1D363E62007D5E55 /* boundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = boundsViewController.swift; sourceTree = "<group>"; };
+		500D5F2C1D363EF2007D5E55 /* cornerRadiusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cornerRadiusViewController.swift; sourceTree = "<group>"; };
+		500D5F2E1D363F68007D5E55 /* contentsRectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contentsRectViewController.swift; sourceTree = "<group>"; };
+		500D5F301D363FEA007D5E55 /* content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content@2x.png"; sourceTree = "<group>"; };
+		500D5F321D36413A007D5E55 /* opacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = opacityViewController.swift; sourceTree = "<group>"; };
+		500D5F341D3641FD007D5E55 /* positionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = positionViewController.swift; sourceTree = "<group>"; };
+		500D5F361D364FDA007D5E55 /* shadowColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowColorViewController.swift; sourceTree = "<group>"; };
+		500D5F381D365054007D5E55 /* shadowOffsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowOffsetViewController.swift; sourceTree = "<group>"; };
+		500D5F3A1D3650D1007D5E55 /* shadowOpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowOpacityViewController.swift; sourceTree = "<group>"; };
+		500D5F3C1D365140007D5E55 /* shadowRadiusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowRadiusViewController.swift; sourceTree = "<group>"; };
+		500D5F3E1D365198007D5E55 /* shadowPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowPathViewController.swift; sourceTree = "<group>"; };
+		502452611D34CB87006D2596 /* HKOpacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKOpacity.swift; sourceTree = "<group>"; };
+		502452631D34CC5B006D2596 /* HKPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKPosition.swift; sourceTree = "<group>"; };
+		502452651D34CE03006D2596 /* HKShadowColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKShadowColor.swift; sourceTree = "<group>"; };
+		502452671D34D113006D2596 /* HKShadowOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKShadowOffset.swift; sourceTree = "<group>"; };
+		502452691D34D233006D2596 /* HKShadowOpacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKShadowOpacity.swift; sourceTree = "<group>"; };
+		5024526B1D34D32B006D2596 /* HKShadowRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKShadowRadius.swift; sourceTree = "<group>"; };
+		5024526D1D34D58B006D2596 /* HKShadowPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKShadowPath.swift; sourceTree = "<group>"; };
+		5024526F1D34FCFE006D2596 /* HKCustomOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKCustomOperators.swift; sourceTree = "<group>"; };
+		508285601D3797A800B5AD8C /* zPositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zPositionViewController.swift; sourceTree = "<group>"; };
+		508285621D37985000B5AD8C /* HKZPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKZPosition.swift; sourceTree = "<group>"; };
+		508285641D37A09000B5AD8C /* HKRotationByX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKRotationByX.swift; sourceTree = "<group>"; };
+		508285661D37A1DA00B5AD8C /* rotationByXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotationByXViewController.swift; sourceTree = "<group>"; };
+		508285681D37BEDF00B5AD8C /* HKRotationByY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKRotationByY.swift; sourceTree = "<group>"; };
+		5082856A1D37BF0700B5AD8C /* HKRotationByZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKRotationByZ.swift; sourceTree = "<group>"; };
+		5082856C1D37BFDA00B5AD8C /* rotationByYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotationByYViewController.swift; sourceTree = "<group>"; };
+		5082856E1D37C0FA00B5AD8C /* rotationByZViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rotationByZViewController.swift; sourceTree = "<group>"; };
+		508285701D37F2FA00B5AD8C /* HKScaleByX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKScaleByX.swift; sourceTree = "<group>"; };
+		508285721D37F31500B5AD8C /* HKScaleByY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKScaleByY.swift; sourceTree = "<group>"; };
+		508285741D37F32000B5AD8C /* HKScaleByZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKScaleByZ.swift; sourceTree = "<group>"; };
+		508285761D37F32C00B5AD8C /* HKScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKScale.swift; sourceTree = "<group>"; };
+		508285781D37F7CD00B5AD8C /* scaleByXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scaleByXViewController.swift; sourceTree = "<group>"; };
+		5082857A1D37F89A00B5AD8C /* scaleByYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scaleByYViewController.swift; sourceTree = "<group>"; };
+		5082857C1D37F8B700B5AD8C /* scaleByZViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scaleByZViewController.swift; sourceTree = "<group>"; };
+		5082857E1D37F8C800B5AD8C /* scaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scaleViewController.swift; sourceTree = "<group>"; };
+		508285801D37FD5800B5AD8C /* HKTranslationByX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTranslationByX.swift; sourceTree = "<group>"; };
+		508285821D37FD6800B5AD8C /* HKTranslationByY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTranslationByY.swift; sourceTree = "<group>"; };
+		508285841D37FD7400B5AD8C /* HKTranslationByZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTranslationByZ.swift; sourceTree = "<group>"; };
+		508285861D37FD8000B5AD8C /* HKTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTranslation.swift; sourceTree = "<group>"; };
+		508285881D37FEE100B5AD8C /* translationByXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = translationByXViewController.swift; sourceTree = "<group>"; };
+		5082858A1D37FEEE00B5AD8C /* translationByYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = translationByYViewController.swift; sourceTree = "<group>"; };
+		5082858C1D37FEF900B5AD8C /* translationByZViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = translationByZViewController.swift; sourceTree = "<group>"; };
+		5082858E1D37FF0400B5AD8C /* translationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = translationViewController.swift; sourceTree = "<group>"; };
+		5085480F1D34007800F0B66C /* HKAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAnchorPoint.swift; sourceTree = "<group>"; };
+		508548111D34026900F0B66C /* HKBorderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKBorderColor.swift; sourceTree = "<group>"; };
+		508548131D3402E300F0B66C /* HKBorderWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKBorderWidth.swift; sourceTree = "<group>"; };
+		508548151D340C5A00F0B66C /* view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view@2x.png"; sourceTree = "<group>"; };
+		508548171D340CCD00F0B66C /* HKContentsRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKContentsRect.swift; sourceTree = "<group>"; };
+		5092578B1D279BCF005ABD22 /* HKAnimationDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAnimationDescription.swift; sourceTree = "<group>"; };
+		5092578C1D279BCF005ABD22 /* HKBounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKBounds.swift; sourceTree = "<group>"; };
+		509F9D751D3016B100B00D93 /* HKAnimationProxyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAnimationProxyDelegate.swift; sourceTree = "<group>"; };
+		50A025621D3A323800F385E4 /* transitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transitionViewController.swift; sourceTree = "<group>"; };
+		50A025641D3A34DC00F385E4 /* flipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flipViewController.swift; sourceTree = "<group>"; };
+		50A9380C1D2FDEFC00BB083D /* HKAnimationTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAnimationTools.swift; sourceTree = "<group>"; };
 		50C1E5491D26AE26003FEE88 /* HKAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C1E54C1D26AE26003FEE88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50C1E54E1D26AE26003FEE88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50C1E5511D26AE26003FEE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50C1E5531D26AE26003FEE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C1E5561D26AE26003FEE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C1E5581D26AE26003FEE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C1E55F1D26AE7C003FEE88 /* CALayer+HKAnimationExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+HKAnimationExts.swift"; sourceTree = "<group>"; };
+		50C1E5631D26AF50003FEE88 /* HKAnimationConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAnimationConfig.swift; sourceTree = "<group>"; };
+		50C1E5671D26B172003FEE88 /* HKAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAnimation.swift; sourceTree = "<group>"; };
+		50E449731D33CB3700A94FAF /* HKCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKCornerRadius.swift; sourceTree = "<group>"; };
+		50E449751D33D0AA00A94FAF /* HKBackgroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKBackgroundColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +163,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500D5F1D1D3634E8007D5E55 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				500D5F1E1D3634FD007D5E55 /* IndexViewController.swift */,
+				500D5F201D36393C007D5E55 /* BaseAnimationViewController.swift */,
+				500D5F221D3639E8007D5E55 /* anchorPointViewController.swift */,
+				500D5F241D363B7C007D5E55 /* backgroundColorViewController.swift */,
+				500D5F261D363BFA007D5E55 /* borderColorViewController.swift */,
+				500D5F281D363C84007D5E55 /* borderWidthViewController.swift */,
+				500D5F2A1D363E62007D5E55 /* boundsViewController.swift */,
+				500D5F2C1D363EF2007D5E55 /* cornerRadiusViewController.swift */,
+				500D5F2E1D363F68007D5E55 /* contentsRectViewController.swift */,
+				500D5F321D36413A007D5E55 /* opacityViewController.swift */,
+				500D5F341D3641FD007D5E55 /* positionViewController.swift */,
+				500D5F361D364FDA007D5E55 /* shadowColorViewController.swift */,
+				500D5F381D365054007D5E55 /* shadowOffsetViewController.swift */,
+				500D5F3A1D3650D1007D5E55 /* shadowOpacityViewController.swift */,
+				500D5F3C1D365140007D5E55 /* shadowRadiusViewController.swift */,
+				500D5F3E1D365198007D5E55 /* shadowPathViewController.swift */,
+				508285601D3797A800B5AD8C /* zPositionViewController.swift */,
+				508285661D37A1DA00B5AD8C /* rotationByXViewController.swift */,
+				5082856C1D37BFDA00B5AD8C /* rotationByYViewController.swift */,
+				5082856E1D37C0FA00B5AD8C /* rotationByZViewController.swift */,
+				508285781D37F7CD00B5AD8C /* scaleByXViewController.swift */,
+				5082857A1D37F89A00B5AD8C /* scaleByYViewController.swift */,
+				5082857C1D37F8B700B5AD8C /* scaleByZViewController.swift */,
+				5082857E1D37F8C800B5AD8C /* scaleViewController.swift */,
+				508285881D37FEE100B5AD8C /* translationByXViewController.swift */,
+				5082858A1D37FEEE00B5AD8C /* translationByYViewController.swift */,
+				5082858C1D37FEF900B5AD8C /* translationByZViewController.swift */,
+				5082858E1D37FF0400B5AD8C /* translationViewController.swift */,
+				50A025621D3A323800F385E4 /* transitionViewController.swift */,
+				50A025641D3A34DC00F385E4 /* flipViewController.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		5092578A1D279BCF005ABD22 /* HKAnimationDescription */ = {
+			isa = PBXGroup;
+			children = (
+				5092578B1D279BCF005ABD22 /* HKAnimationDescription.swift */,
+				5092578C1D279BCF005ABD22 /* HKBounds.swift */,
+				50E449731D33CB3700A94FAF /* HKCornerRadius.swift */,
+				50E449751D33D0AA00A94FAF /* HKBackgroundColor.swift */,
+				5085480F1D34007800F0B66C /* HKAnchorPoint.swift */,
+				508548111D34026900F0B66C /* HKBorderColor.swift */,
+				508548131D3402E300F0B66C /* HKBorderWidth.swift */,
+				508548171D340CCD00F0B66C /* HKContentsRect.swift */,
+				502452611D34CB87006D2596 /* HKOpacity.swift */,
+				502452631D34CC5B006D2596 /* HKPosition.swift */,
+				502452651D34CE03006D2596 /* HKShadowColor.swift */,
+				502452671D34D113006D2596 /* HKShadowOffset.swift */,
+				502452691D34D233006D2596 /* HKShadowOpacity.swift */,
+				5024526B1D34D32B006D2596 /* HKShadowRadius.swift */,
+				5024526D1D34D58B006D2596 /* HKShadowPath.swift */,
+				508285621D37985000B5AD8C /* HKZPosition.swift */,
+				508285641D37A09000B5AD8C /* HKRotationByX.swift */,
+				508285681D37BEDF00B5AD8C /* HKRotationByY.swift */,
+				5082856A1D37BF0700B5AD8C /* HKRotationByZ.swift */,
+				508285701D37F2FA00B5AD8C /* HKScaleByX.swift */,
+				508285721D37F31500B5AD8C /* HKScaleByY.swift */,
+				508285741D37F32000B5AD8C /* HKScaleByZ.swift */,
+				508285761D37F32C00B5AD8C /* HKScale.swift */,
+				508285801D37FD5800B5AD8C /* HKTranslationByX.swift */,
+				508285821D37FD6800B5AD8C /* HKTranslationByY.swift */,
+				508285841D37FD7400B5AD8C /* HKTranslationByZ.swift */,
+				508285861D37FD8000B5AD8C /* HKTranslation.swift */,
+			);
+			path = HKAnimationDescription;
+			sourceTree = "<group>";
+		};
+		50A9380B1D2FDEE100BB083D /* HKAnimationTools */ = {
+			isa = PBXGroup;
+			children = (
+				50A9380C1D2FDEFC00BB083D /* HKAnimationTools.swift */,
+				500D5F1B1D362650007D5E55 /* HKGeometry.swift */,
+			);
+			path = HKAnimationTools;
+			sourceTree = "<group>";
+		};
 		50C1E5401D26AE26003FEE88 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +262,30 @@
 		50C1E54B1D26AE26003FEE88 /* HKAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				500D5F1D1D3634E8007D5E55 /* Animations */,
+				50C1E55E1D26AE40003FEE88 /* Classes */,
 				50C1E54C1D26AE26003FEE88 /* AppDelegate.swift */,
-				50C1E54E1D26AE26003FEE88 /* ViewController.swift */,
-				50C1E5501D26AE26003FEE88 /* Main.storyboard */,
 				50C1E5531D26AE26003FEE88 /* Assets.xcassets */,
 				50C1E5551D26AE26003FEE88 /* LaunchScreen.storyboard */,
 				50C1E5581D26AE26003FEE88 /* Info.plist */,
+				508548151D340C5A00F0B66C /* view@2x.png */,
+				500D5F301D363FEA007D5E55 /* content@2x.png */,
+				5024526F1D34FCFE006D2596 /* HKCustomOperators.swift */,
 			);
 			path = HKAnimation;
+			sourceTree = "<group>";
+		};
+		50C1E55E1D26AE40003FEE88 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50C1E55F1D26AE7C003FEE88 /* CALayer+HKAnimationExts.swift */,
+				50C1E5631D26AF50003FEE88 /* HKAnimationConfig.swift */,
+				50C1E5671D26B172003FEE88 /* HKAnimation.swift */,
+				509F9D751D3016B100B00D93 /* HKAnimationProxyDelegate.swift */,
+				50A9380B1D2FDEE100BB083D /* HKAnimationTools */,
+				5092578A1D279BCF005ABD22 /* HKAnimationDescription */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +348,8 @@
 			files = (
 				50C1E5571D26AE26003FEE88 /* LaunchScreen.storyboard in Resources */,
 				50C1E5541D26AE26003FEE88 /* Assets.xcassets in Resources */,
-				50C1E5521D26AE26003FEE88 /* Main.storyboard in Resources */,
+				500D5F311D363FEA007D5E55 /* content@2x.png in Resources */,
+				508548161D340C5A00F0B66C /* view@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +360,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C1E54F1D26AE26003FEE88 /* ViewController.swift in Sources */,
+				508285651D37A09000B5AD8C /* HKRotationByX.swift in Sources */,
+				508285691D37BEDF00B5AD8C /* HKRotationByY.swift in Sources */,
+				500D5F351D3641FD007D5E55 /* positionViewController.swift in Sources */,
+				50A025631D3A323800F385E4 /* transitionViewController.swift in Sources */,
+				500D5F3B1D3650D1007D5E55 /* shadowOpacityViewController.swift in Sources */,
 				50C1E54D1D26AE26003FEE88 /* AppDelegate.swift in Sources */,
+				5082857B1D37F89A00B5AD8C /* scaleByYViewController.swift in Sources */,
+				5024526C1D34D32B006D2596 /* HKShadowRadius.swift in Sources */,
+				5024526E1D34D58B006D2596 /* HKShadowPath.swift in Sources */,
+				508285731D37F31500B5AD8C /* HKScaleByY.swift in Sources */,
+				5024526A1D34D233006D2596 /* HKShadowOpacity.swift in Sources */,
+				508285791D37F7CD00B5AD8C /* scaleByXViewController.swift in Sources */,
+				502452641D34CC5B006D2596 /* HKPosition.swift in Sources */,
+				508285771D37F32C00B5AD8C /* HKScale.swift in Sources */,
+				50E449761D33D0AA00A94FAF /* HKBackgroundColor.swift in Sources */,
+				508285891D37FEE100B5AD8C /* translationByXViewController.swift in Sources */,
+				5092578E1D279BCF005ABD22 /* HKBounds.swift in Sources */,
+				508548181D340CCD00F0B66C /* HKContentsRect.swift in Sources */,
+				508285751D37F32000B5AD8C /* HKScaleByZ.swift in Sources */,
+				500D5F3F1D365198007D5E55 /* shadowPathViewController.swift in Sources */,
+				5082856B1D37BF0700B5AD8C /* HKRotationByZ.swift in Sources */,
+				50A025651D3A34DC00F385E4 /* flipViewController.swift in Sources */,
+				5082857D1D37F8B700B5AD8C /* scaleByZViewController.swift in Sources */,
+				502452681D34D113006D2596 /* HKShadowOffset.swift in Sources */,
+				5082856D1D37BFDA00B5AD8C /* rotationByYViewController.swift in Sources */,
+				508285811D37FD5800B5AD8C /* HKTranslationByX.swift in Sources */,
+				5082857F1D37F8C800B5AD8C /* scaleViewController.swift in Sources */,
+				500D5F2F1D363F68007D5E55 /* contentsRectViewController.swift in Sources */,
+				508285671D37A1DA00B5AD8C /* rotationByXViewController.swift in Sources */,
+				500D5F1C1D362650007D5E55 /* HKGeometry.swift in Sources */,
+				502452701D34FCFE006D2596 /* HKCustomOperators.swift in Sources */,
+				500D5F231D3639E8007D5E55 /* anchorPointViewController.swift in Sources */,
+				50E449741D33CB3700A94FAF /* HKCornerRadius.swift in Sources */,
+				502452621D34CB87006D2596 /* HKOpacity.swift in Sources */,
+				5082858F1D37FF0400B5AD8C /* translationViewController.swift in Sources */,
+				500D5F211D36393C007D5E55 /* BaseAnimationViewController.swift in Sources */,
+				5082856F1D37C0FA00B5AD8C /* rotationByZViewController.swift in Sources */,
+				5082858D1D37FEF900B5AD8C /* translationByZViewController.swift in Sources */,
+				508285711D37F2FA00B5AD8C /* HKScaleByX.swift in Sources */,
+				500D5F371D364FDA007D5E55 /* shadowColorViewController.swift in Sources */,
+				500D5F251D363B7C007D5E55 /* backgroundColorViewController.swift in Sources */,
+				509F9D761D3016B100B00D93 /* HKAnimationProxyDelegate.swift in Sources */,
+				5082858B1D37FEEE00B5AD8C /* translationByYViewController.swift in Sources */,
+				508548101D34007800F0B66C /* HKAnchorPoint.swift in Sources */,
+				502452661D34CE03006D2596 /* HKShadowColor.swift in Sources */,
+				50C1E5601D26AE7C003FEE88 /* CALayer+HKAnimationExts.swift in Sources */,
+				508285871D37FD8000B5AD8C /* HKTranslation.swift in Sources */,
+				500D5F291D363C84007D5E55 /* borderWidthViewController.swift in Sources */,
+				500D5F2D1D363EF2007D5E55 /* cornerRadiusViewController.swift in Sources */,
+				508285631D37985000B5AD8C /* HKZPosition.swift in Sources */,
+				50C1E5641D26AF50003FEE88 /* HKAnimationConfig.swift in Sources */,
+				500D5F1F1D3634FD007D5E55 /* IndexViewController.swift in Sources */,
+				500D5F271D363BFA007D5E55 /* borderColorViewController.swift in Sources */,
+				508285611D3797A800B5AD8C /* zPositionViewController.swift in Sources */,
+				500D5F391D365054007D5E55 /* shadowOffsetViewController.swift in Sources */,
+				508285851D37FD7400B5AD8C /* HKTranslationByZ.swift in Sources */,
+				508548121D34026900F0B66C /* HKBorderColor.swift in Sources */,
+				50A9380D1D2FDEFC00BB083D /* HKAnimationTools.swift in Sources */,
+				5092578D1D279BCF005ABD22 /* HKAnimationDescription.swift in Sources */,
+				500D5F3D1D365140007D5E55 /* shadowRadiusViewController.swift in Sources */,
+				50C1E5681D26B172003FEE88 /* HKAnimation.swift in Sources */,
+				508548141D3402E300F0B66C /* HKBorderWidth.swift in Sources */,
+				500D5F331D36413A007D5E55 /* opacityViewController.swift in Sources */,
+				500D5F2B1D363E62007D5E55 /* boundsViewController.swift in Sources */,
+				508285831D37FD6800B5AD8C /* HKTranslationByY.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		50C1E5501D26AE26003FEE88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50C1E5511D26AE26003FEE88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50C1E5551D26AE26003FEE88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -250,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HKAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.HKAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HKAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.HKAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +568,7 @@
 				50C1E55D1D26AE26003FEE88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
