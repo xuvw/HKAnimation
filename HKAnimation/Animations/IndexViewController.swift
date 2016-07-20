@@ -75,7 +75,8 @@ class IndexViewController: UIViewController, UITableViewDataSource, UITableViewD
                  "transform.translation.z",
                  "transform.translation",
                  "transition",
-                 "flipAnimation"]
+                 "flipAnimation",
+                 "UIBezierPath"]
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -83,6 +84,10 @@ class IndexViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         switch items![indexPath.row] {
         
+        case "UIBezierPath":
+            let vc = pathViewController()
+            vc.title = "UIBezierPath"
+            navigationController?.pushViewController(vc, animated: true)
         case "flipAnimation":
             let vc = flipViewController()
             vc.title = "flipAnimation"
